@@ -10,20 +10,14 @@
         <?php
 	    if($_SESSION['login'])
 	    {
-	    	echo "已登录!<br />";
-		echo "<a href='logout.php'>登出</a>";
+	    	echo "已登录!";
+    		echo "<a href='logout.php'>登出</a>";
 	    }
 	    else
 	    {
-	    	echo "未登录!<br /><br />";
+	    	echo "未登录!";
+	        echo "<a href='login1.php'>登录</a>";
 	    }
         ?>
-	<b>登录方式：</b>
-	<ul>
-	    <li><a href="login1.php">版本 1</a></li>
-	    <li><a href="login2.php">版本 2</a></li>
-	    <li><a href="login3.php">版本 3</a></li>
-	    <li><a href="login4.php">版本 4</a></li>
-	</ul>
     </body>
 </html>
