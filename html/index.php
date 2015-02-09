@@ -1,5 +1,12 @@
-<?php require("../lib/header.php"); ?>
-
+<?php
+    /**
+     *Tianwen Jiang
+     */
+                  
+    // enable sessions
+    session_start();
+?>
+<!DOCTYPE html>
 <html>
     <head>
         <title>首页</title>
@@ -16,7 +23,7 @@
 	    else
 	    {
 	    	echo "未登录!";
-	        echo "<a href='login1.php'>登录</a>";
+	        echo "<a href='login.php'>登录</a>";
 	    }
         ?>
     </body>
